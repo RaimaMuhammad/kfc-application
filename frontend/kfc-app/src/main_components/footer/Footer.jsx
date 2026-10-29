@@ -1,253 +1,352 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
-import instagram from "../../assets/svg/instagram.svg"
-import facebook from "../../assets/svg/facebook.svg"
-import twitter from "../../assets/svg/twitter.svg"
-import footkfc from "../../assets/svg/footkfc.svg"
+
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+import instagram from "../../assets/svg/instagram.svg";
+import facebook from "../../assets/svg/facebook.svg";
+import twitter from "../../assets/svg/twitter.svg";
+import footkfc from "../../assets/svg/footkfc.svg";
 
 const FooterStyled = styled.div`
- text-align: center;
-.footermaindiv{
-    
+  text-align: center;
+
+  .footermaindiv {
     background-color: rgb(32, 33, 36);
-    width:100vw;
-    height:fit-Content;
-    bottom:0;
-    padding:2% 0% 5% 0%;
-}
-.container44 {
-    width:85vw;
-    display:grid;
+    width: 100%;
+    height: fit-content;
+    padding: 2% 0% 3% 0%;
+    box-sizing: border-box;
+  }
+
+  .container44 {
+    width: 85%;
+    display: grid;
     text-align: justify;
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    margin:auto;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  }
 
-p {
+  p {
     width: 100%;
     font-size: 12px;
-}
+  }
 
-.boxes44 {
+  .boxes44 {
     display: flex;
-    width:100%;
-    ${'' /* grid-template-columns:"2fr 1fr" */}
-    justify-Content:space-between;
+    width: 100%;
+    justify-content: space-between;
     margin-top: 50px;
-    ${'' /* border: 1px solid red;  */}
-}
+  }
 
-ul {
+  ul {
     list-style-type: none;
-}
+    padding-left: 0;
+  }
 
-li {
+  li {
     font-size: 12px;
     margin-bottom: 1rem;
-}
+  }
 
-li:hover {
+  li:hover {
     text-decoration: underline;
-}
+    cursor: pointer;
+  }
 
-.cards44 {
+  .cards44 {
     width: 100%;
-}
+  }
 
-ul>p {
+  ul > p {
     font-size: 14px;
-}
+    font-weight: bold;
+  }
 
-.lastbox44 {
+  .lastbox44 {
     display: flex;
-    /* border: 1px solid green; */
-    height:40px;
+    min-height: 40px;
     margin-top: 60px;
-}
+    align-items: center;
+  }
 
-.section44 {
+  .section44 {
     display: flex;
-    /* border: 1px solid red; */
     width: 75%;
     margin-right: 3rem;
-}
+  }
 
-.section44>div:hover {
-    text-decoration: underline;
-}
-
-.section44>div {
+  .section44 > div {
     width: 100%;
-    ${'' /* margin-right: ; */}
-    ${'' /* border-right: 1px solid gray; */}
-}
-.section44>:nth-child(5){
-    border-right: none;
-}
-.lastLinefoot{
-    visibility:visible;
-}
-.lastLinefootsvg{
-    visibility:hidden;
-}
-@media all and (min-width:0px) and (max-width:1024px) {
-    .footermaindiv{
-        width:100vw;
-        height:fit-Content;
-        bottom:0;
-        padding:2% 0% 0% 0%;
-        margin:auto;
-        ${'' /* text-align:center; */}
+  }
+
+  .section44 > div:hover {
+    text-decoration: underline;
+  }
+
+  .lastLinefoot {
+    visibility: visible;
+  }
+
+  .lastLinefootsvg {
+    visibility: hidden;
+  }
+
+  /* Student project credits */
+  .student-credits {
+    border-top: 1px solid #555;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fefffc;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .student-credits p {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .student-credits strong {
+    color: #f3f1f1;
+  }
+
+  .student-credits .developed-by {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .student-credits .copyright {
+    color: #cccccc;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+
+  @media all and (max-width: 1024px) {
+    .footermaindiv {
+      width: 100%;
+      padding: 20px 0;
     }
+
     .container44 {
-        width:90vw;
-        display:block;
-        text-align: center;
-        margin:auto;
+      width: 90%;
+      display: block;
+      text-align: center;
     }
-    .boxes44{
-        flex-direction: column;
-    }
-    .cards44{
-        width: 100%;
-        height: 40px;
-        overflow: hidden;
-        text-align: center;
-        bottom:0;
-        width:95%;
-    }
-    .cards44:nth-child(1){
-       width:fit-content;
-       height: 150px;
-       margin:auto;
-       ${'' /* margin-left:4%; */}
 
+    .boxes44 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 25px;
     }
-    i{
-        ${'' /* margin-right: 2px */}
+
+    .cards44 {
+      width: 95%;
+      height: 40px;
+      overflow: hidden;
+      text-align: center;
     }
-    .lastLinefoot{
-        visibility:hidden;
+
+    .cards44:nth-child(1) {
+      width: fit-content;
+      height: 150px;
+      margin: auto;
     }
-    .lastLinefootsvg{
-        visibility:visible;
-        display:flex;
-        justify-Content:center;
+
+    .lastLinefoot {
+      visibility: hidden;
+      display: none;
     }
+
+    .lastLinefootsvg {
+      visibility: visible;
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+    }
+
     .lastbox44 {
-        display: flex;
-        ${'' /* height:40px; */}
-        margin-top: 0px;
+      margin-top: 0;
     }
+
     li {
-        font-size: 12px;
-        margin-bottom: 0rem;
+      font-size: 12px;
+      margin-bottom: 0;
     }
-}
 
-`
+    .student-credits {
+      margin-top: 20px;
+      padding: 18px 5px 0;
+    }
+
+    .student-credits p {
+      font-size: 13px;
+    }
+  }
+`;
+
 export const Footer = () => {
-    return (
-        <FooterStyled>
-            <div className='footermaindiv'>
-                <div className="container44">
-                    <p>Calorie Statement</p>
-                    <p>2,000 calories a day is used for general nutrition advice, but calorie needs vary. Additional nutrition
-                        information available upon request in-store and on kfc.com.<br /> Prices, participation, and product availability
-                        may vary.</p>
-                    <br />
-                    <p>Pepsi, Pepsi Globe, Mtn Dew, Mtn Dew Sweet Lightning, Sierra Mist are registered trademarks of PepsiCo, Inc.<br />
-                        Dr Pepper is a registered trademark of Dr Pepper/Seven Up, Inc.</p>
-                    <br />
-                    <div className="boxes44">
-                        <div className="cards44">
-                            <img height={"110rem"} style={{ padding: "0px 5px", cursor: "pointer" }} src={footkfc} alt="" />
-                        </div>
-                        <div className="cards44">
-                            <ul>
-                                <p>KFC Food</p>
-                                <li>Menu</li>
-                                <li>Full Nutrition Guide</li>
-                                <li>Nutrition Calculator</li>
-                                <li>Food Allergies & Sensitivities</li>
-                            </ul>
-                        </div>
-                        <div className="cards44">
-                            <ul>
-                                <p>Company</p>
-                                <li>About KFC</li>
-                                <li>How We Make Chicken</li>
-                                <li>KFC Foundation</li>
-                                <li>Company Responsibility</li>
-                                <li>Franchise a KFC</li>
-                                <li>Resposible Disclosure</li>
-                                <li>KFC Newsroom</li>
-                            </ul>
-                        </div>
-                        <div className="cards44">
-                            <ul>
-                                <p>Career</p>
-                                <li>Restaurant Careers</li>
-                                <li>Corporate Careers</li>
-                                <li>Culture</li>
-                                <li>Growth</li>
-                            </ul>
-                        </div>
-                        <div className="cards44">
-                            <ul>
-                                <p>Resources</p>
-                                <li>FAQs</li>
-                                <li>Contact Us</li>
-                                <li>KFC App</li>
-                            </ul>
-                        </div>
-                        <div className="cards44">
-                            <ul>
-                                <p>Find a KFC</p>
-                                <li>Find a KFC</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="lastbox44">
-                        <div className="section44">
-                            <div className='lastLinefoot'>
-                                <p>Privacy Policy </p>
-                            </div>
-                            <div className='lastLinefoot'>
-                                <p>Updated 01/2022</p>
-                            </div>
-                            <div className='lastLinefoot'>
-                                <p>Terms Of Use</p>
-                            </div>
-                            <div className='lastLinefoot'>
-                                <p>Our Cookies & Ads</p>
-                            </div>
-                            <div className='lastLinefoot'>
-                                <p>Do Not Sell My Personal Information</p>
-                            </div>
-                        </div>
-                        <div className='lastLinefoot'>
-                            <p>Copyright © KFC Corporation 2022 All Rights Reserved</p>
-                        </div>
-                        <div style={{ display: "flex" }} className='lastLinefoot'>
-                            <Link to={"https://www.instagram.com/_mad___boxer_/"}><img height={"30rem"} style={{ padding: "0.3vw 1vw" }} src={instagram} alt="" /></Link>
-                            <Link to={"https://www.facebook.com/people/Arshad-Khan/100004164048208/"}><img height={"30rem"} style={{ padding: "0.3vw 1vw" }} src={facebook} alt="" /></Link>
-                            <Link to={"https://www.linkedin.com/in/md-arshad-khan-350206154/"}><img height={"30rem"} style={{ padding: "0.3vw 1vw" }} src={twitter} alt="" /></Link>
-                        </div>
-                    </div>
-                    <div style={{ borderLeft: "gray" }} className='lastLinefoot'>
-                        <p> Asessibility Statement</p>
-                    </div>
-                </div>
-                <div style={{ display: "flex" }} className='lastLinefootsvg'>
-                    <Link to={"https://www.instagram.com/_mad___boxer_/"}><img height={"30rem"} style={{ padding: "0.3vw 1vw" }} src={instagram} alt="" /></Link>
-                    <Link to={"https://www.facebook.com/people/Arshad-Khan/100004164048208/"}><img height={"30rem"} style={{ padding: "0.3vw 1vw" }} src={facebook} alt="" /></Link>
-                    <Link to={"https://www.linkedin.com/in/md-arshad-khan-350206154/"}><img height={"30rem"} style={{ padding: "0.3vw 1vw" }} src={twitter} alt="" /></Link>
-                </div>
-            </div>
-        </FooterStyled>
-    )
-}
+  return (
+    <FooterStyled>
+      <footer className="footermaindiv">
+        <div className="container44">
+          <p>Calorie Statement</p>
 
+          <p>
+            2,000 calories a day is used for general nutrition advice, but
+            calorie needs vary. Additional nutrition information available
+            upon request in-store and on kfc.com. Prices, participation,
+            and product availability may vary.
+          </p>
+
+          <br />
+
+          <p>
+            Pepsi, Pepsi Globe, Mtn Dew, Mtn Dew Sweet Lightning, Sierra Mist
+            are registered trademarks of PepsiCo, Inc.
+            <br />
+            Dr Pepper is a registered trademark of Dr Pepper/Seven Up, Inc.
+          </p>
+
+          <br />
+
+          <div className="boxes44">
+            <div className="cards44">
+              <img
+                height="110rem"
+                style={{ padding: "0px 5px", cursor: "pointer" }}
+                src={footkfc}
+                alt="KFC logo"
+              />
+            </div>
+
+            <div className="cards44">
+              <ul>
+                <p>KFC Food</p>
+                <li>Menu</li>
+                <li>Full Nutrition Guide</li>
+                <li>Nutrition Calculator</li>
+                <li>Food Allergies &amp; Sensitivities</li>
+              </ul>
+            </div>
+
+            <div className="cards44">
+              <ul>
+                <p>Company</p>
+                <li>About KFC</li>
+                <li>How We Make Chicken</li>
+                <li>KFC Foundation</li>
+                <li>Company Responsibility</li>
+                <li>Franchise a KFC</li>
+                <li>Responsible Disclosure</li>
+                <li>KFC Newsroom</li>
+              </ul>
+            </div>
+
+            <div className="cards44">
+              <ul>
+                <p>Career</p>
+                <li>Restaurant Careers</li>
+                <li>Corporate Careers</li>
+                <li>Culture</li>
+                <li>Growth</li>
+              </ul>
+            </div>
+
+            <div className="cards44">
+              <ul>
+                <p>Resources</p>
+                <li>FAQs</li>
+                <li>Contact Us</li>
+                <li>KFC App</li>
+              </ul>
+            </div>
+
+            <div className="cards44">
+              <ul>
+                <p>Find a KFC</p>
+                <li>Find a KFC</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="lastbox44">
+            <div className="section44">
+              <div className="lastLinefoot"><p>Privacy Policy</p></div>
+              <div className="lastLinefoot"><p>Updated 01/2022</p></div>
+              <div className="lastLinefoot"><p>Terms Of Use</p></div>
+              <div className="lastLinefoot"><p>Our Cookies &amp; Ads</p></div>
+              <div className="lastLinefoot">
+                <p>Do Not Sell My Personal Information</p>
+              </div>
+            </div>
+
+            <div className="lastLinefoot">
+              <p>Copyright © KFC Corporation 2022 All Rights Reserved</p>
+            </div>
+
+            <div
+              style={{ display: "flex" }}
+              className="lastLinefoot"
+            >
+              <Link to="https://www.instagram.com/_mad___boxer_/">
+                <img height="30rem" style={{ padding: "0.3vw 1vw" }} src={instagram} alt="Instagram" />
+              </Link>
+
+              <Link to="https://www.facebook.com/people/Arshad-Khan/100004164048208/">
+                <img height="30rem" style={{ padding: "0.3vw 1vw" }} src={facebook} alt="Facebook" />
+              </Link>
+
+              <Link to="https://www.linkedin.com/in/md-arshad-khan-350206154/">
+                <img height="30rem" style={{ padding: "0.3vw 1vw" }} src={twitter} alt="Social media" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="lastLinefoot">
+            <p>Accessibility Statement</p>
+          </div>
+
+          {/* Student project credits */}
+          <div className="student-credits">
+            <p className="developed-by">Developed by</p>
+
+            <p>
+              <strong>Muhammad Raima</strong>
+              {" — "}
+              Registration No: <strong>S25D14/021</strong>
+            </p>
+
+            <p>
+              <strong>Nsajja Comfort Shalom</strong>
+              {" — "}
+              Registration No: <strong>S25D14/017</strong>
+            </p>
+
+            <p className="copyright">
+              © {new Date().getFullYear()} KFC Clone Project
+            </p>
+          </div>
+        </div>
+
+        <div className="lastLinefootsvg">
+          <Link to="https://www.instagram.com/_mad___boxer_/">
+            <img height="30rem" style={{ padding: "0.3vw 1vw" }} src={instagram} alt="Instagram" />
+          </Link>
+
+          <Link to="https://www.facebook.com/people/Arshad-Khan/100004164048208/">
+            <img height="30rem" style={{ padding: "0.3vw 1vw" }} src={facebook} alt="Facebook" />
+          </Link>
+
+          <Link to="https://www.linkedin.com/in/md-arshad-khan-350206154/">
+            <img height="30rem" style={{ padding: "0.3vw 1vw" }} src={twitter} alt="Social media" />
+          </Link>
+        </div>
+      </footer>
+    </FooterStyled>
+  );
+};
