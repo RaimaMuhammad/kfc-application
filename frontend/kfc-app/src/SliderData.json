@@ -1,0 +1,462 @@
+{
+    "featured":[
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00000921.jpg?ver=1.10",
+        "title": "Mingles Bucket Meal",
+        "desc": "Save Rs. 71 on 4 Hot Wings, 2 Chicken Strips, Reg Popcorn, medium fries & Pepsi PET [serves 2 ]",
+        "price": "UGX 20,500",
+        "type": "chicken"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00000956.jpg?ver=1.10",
+        "title": "Mixed Zinger Doubles",
+        "desc": "Best-seller combo of classic chicken zinger & tandoori zinger",
+        "price": "UGX 15,000",
+        "type": "burger"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00002092.jpg?ver=1.10",
+        "title": "Strips with Nashville Sauce",
+        "desc": "Dipping combo of 10pc chicken strips & our new Nashville Hot Pepper Sauce Bottle [serves 2-3]",
+        "price": "UGX 27,500",
+        "type": "launch"
+      }
+    ],
+    "favorites":[
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K445.jpg?ver=1.10",
+        "title": "Smoky Red Chicken",
+        "desc": "Flat 20% off on 5pc Smoky red grilled chicken [serves 2]",
+        "price": "UGX 21,500",
+        "type": "chicken"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00001023.jpg?ver=1.10",
+        "title": "Veg Krispers Meal",
+        "desc": "2 veg value burgers, crispy medium fries & 2 delicious dips at a deal price!",
+        "price": "UGX 11,500",
+        "type": "burger"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00001004.jpg?ver=1.10",
+        "title": "Veg Zinger Box",
+        "desc": "A deal for the Veg Zinger lovers : Get 1 Veg Zinger, 2 Veg Patties & a Pepsi",
+        "price": "UGX 13,500",
+        "type": "boxmeals"
+      },
+
+            {
+        "image": "/images/classic-zinger-box.jpg",
+        "title": "Classic Zinger Box",
+        "desc": "Crispy chicken Zinger burger, 1 pc Hot & Crispy, regular fries & a chilled soda",
+        "price": "UGX 29,000",
+        "type": "boxmeals"
+      },
+      {
+        "image": "/images/chicken-strips-box.jpg",
+        "title": "Chicken Strips Box",
+        "desc": "4 crispy chicken strips, regular fries, coleslaw & a dip",
+        "price": "UGX 26,000",
+        "type": "boxmeals"
+      },
+      {
+        "image": "/images/hot-crispy-box.jpg",
+        "title": "Hot & Crispy Box",
+        "desc": "3 pc Hot & Crispy chicken, large fries, bun & a chilled soda",
+        "price": "UGX 35,000",
+        "type": "boxmeals"
+      },
+      {
+        "image": "/images/wings-box-meal.jpg",
+        "title": "Wings Box Meal",
+        "desc": "6 spicy wings, regular fries, coleslaw & a chilled soda",
+        "price": "UGX 31,000",
+        "type": "boxmeals"
+      },
+
+
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00002016.jpg?ver=1.10",
+        "title": "Classic Biryani Combo",
+        "desc": "Large portions of Biryani rice with 2 pc Hot & Crispy, 2 Gravies, 4 Strips & Pepsi PET [serves 2-3]",
+        "price": "UGX 32,000",
+        "type": "stayhome"
+      },
+
+
+      {
+        "image": "",
+        "title": "Chicken Biryani Combo",
+        "desc": "Hyderabadi style chicken biryani rice with 2 pc Hot & Crispy, spicy gravy & a chilled soda [serves 1-2]",
+        "price": "UGX 32,000",
+        "type": "biryani"
+      },
+      {
+        "image": "",
+        "title": "Family Chicken Biryani Bucket",
+        "desc": "Large biryani rice bucket with 6 pc Hot & Crispy chicken, 2 spicy gravies & raita [serves 3-4]",
+        "price": "UGX 75,000",
+        "type": "biryani"
+      },
+      {
+        "image": "",
+        "title": "Spicy Chicken Biryani Bowl",
+        "desc": "Fiery masala biryani rice topped with crispy chicken strips & gravy [serves 1]",
+        "price": "UGX 24,000",
+        "type": "biryani"
+      },
+      {
+        "image": "",
+        "title": "Biryani Bucket with Wings",
+        "desc": "Chicken biryani rice served with 6 spicy wings & a dip [serves 2]",
+        "price": "UGX 45,000",
+        "type": "biryani"
+      },
+      {
+        "image": "",
+        "title": "Chicken Biryani & Popcorn Meal",
+        "desc": "Chicken biryani rice with regular popcorn chicken & a chilled soda [serves 1]",
+        "price": "UGX 28,000",
+        "type": "biryani"
+      },
+      {
+        "image": "",
+        "title": "Chicken Nuggets",
+        "desc": "10 golden crispy chicken nuggets with a dip of your choice [serves 1-2]",
+        "price": "UGX 14,000",
+        "type": "snacks"
+      },
+      {
+        "image": "",
+        "title": "Hot Wings (6 pc)",
+        "desc": "6 spicy, crispy wings coated in our signature seasoning",
+        "price": "UGX 15,000",
+        "type": "snacks"
+      },
+      {
+        "image": "",
+        "title": "Coleslaw",
+        "desc": "Fresh creamy coleslaw, the perfect side for any meal",
+        "price": "UGX 4,000",
+        "type": "snacks"
+      },
+      {
+        "image": "",
+        "title": "Vanilla Ice Cream Cup",
+        "desc": "Smooth, creamy vanilla ice cream to finish your meal",
+        "price": "UGX 5,000",
+        "type": "snacks"
+      },
+      {
+        "image": "",
+        "title": "Movie Night Combo",
+        "desc": "6 pc Hot & Crispy chicken, large popcorn, large fries & 2 chilled sodas [serves 2-3]",
+        "price": "UGX 58,000",
+        "type": "stayhome"
+      },
+      {
+        "image": "",
+        "title": "Sunday Family Pack",
+        "desc": "8 pc Hot & Crispy chicken, 4 zinger burgers, large fries & a 1.5L soda [serves 4-5]",
+        "price": "UGX 98,000",
+        "type": "stayhome"
+      },
+
+      {
+        "image": "",
+        "title": "Classic Zinger Burger",
+        "desc": "Our signature crispy chicken fillet with fresh lettuce & creamy mayo in a toasted bun [serves 1]",
+        "price": "UGX 12,000",
+        "type": "burger"
+      },
+      {
+        "image": "",
+        "title": "Tower Burger",
+        "desc": "Crispy chicken fillet, hash brown, cheese slice & spicy sauce stacked high [serves 1]",
+        "price": "UGX 16,000",
+        "type": "burger"
+      },
+      {
+        "image": "",
+        "title": "Double Chicken Burger",
+        "desc": "Two crispy chicken fillets, melted cheese, lettuce & tangy sauce [serves 1]",
+        "price": "UGX 19,000",
+        "type": "burger"
+      },
+
+
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K486.jpg?ver=1.10",
+        "title": "Pepsi Black Can 330 ml",
+        "desc": "Pepsi Black Can 330 ml",
+        "price": "UGX 2,500",
+        "type": "beverages"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K623.jpg?ver=1.10",
+        "title": "Classic Chicken Biryani Bucket",
+        "desc": "Hyderabadi style Biryani rice served with 1 pc Hot & Crispy & Spicy Gravy [serves 1]",
+        "price": "UGX 10,000",
+        "type": "biryani"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00001003.jpg?ver=1.10",
+        "title": "Zinger Tandoori Box",
+        "desc": "A deal for the Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & Pepsi",
+        "price": "UGX 13,500",
+        "type": "boxmeals"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00000974.jpg?ver=1.10",
+        "title": "Family Feast",
+        "desc": "Family Deal of 3 chicken zingers, a medium popcorn, medium fries & a chilled Pepsi PET [serves 3]",
+        "price": "UGX 35,500",
+        "type": "stayhome"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K223.jpg?ver=1.10",
+        "title": "Large Popcorn",
+        "desc": "Signature bite-sized boneless chicken, with special spices",
+        "type": "snacks",
+        "price": "UGX 10,000"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K657.jpg?ver=1.10",
+        "title": "Double Chicken Roll",
+        "desc": "New street style roll with double chicken strips, onions and 2 spicy sauces [serves 1]",
+        "price": "UGX 7,500",
+        "type": "rolls"
+      }
+    ],
+    "quickbites":[
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K146.jpg?ver=1.10",
+        "title": "Veg Zinger Burger",
+        "desc": "Signature veg burger with crispy patties, veggies & a tangy sauce",
+        "price": "UGX 7,500",
+        "type": "burger"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00000892.jpg?ver=1.10",
+        "title": "Bucket for Two",
+        "desc": "Flat Rs. 115 off on combo of 2pc Hot & Crispy, 2 pc Smoky Red Chicken & Large Popcorn [serves 2-3]",
+        "price": "UGX 26,000",
+        "type": "chicken"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00002070.jpg?ver=1.10",
+        "title": "Single Roll Combo for 1",
+        "desc": "Deal combo of 1 New Single Chicken Roll, Large Fries, 2 Dips & 1 Pepsi PET [serves 1]",
+        "price": "UGX 14,500",
+        "type": "rolls"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K138.jpg?ver=1.10",
+        "title": "Large Fries",
+        "desc": "Jazz up your meal with crispy large fries!",
+        "type": "snacks",
+        "price": "UGX 5,000"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K443.jpg?ver=1.10",
+        "title": "1 pc Smoky Red Chicken",
+        "desc": "Spicy, red, grilled chicken",
+        "type": "snacks",
+        "price": "UGX 5,500"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K496.jpg?ver=1.10",
+        "title": "Choco Mud Pie",
+        "desc": "Chocolate lovers unite! Say hello to our creamy chocolate & cake dessert- a must try!",
+        "type": "snacks",
+        "price": "UGX 5,500"
+      },
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K617.jpg?ver=1.10",
+        "title": "Single Chicken Roll",
+        "desc": "New street style roll with single chicken strip, onions and 2 spicy sauces[serves 1]",
+        "price": "UGX 5,500",
+        "type": "rolls"
+      },
+
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-K136.jpg?ver=1.10",
+        "title": "Regular Popcorn",
+        "desc": "Signature bite-sized boneless chicken, with special spices",
+        "type": "snacks",
+        "price": "UGX 5,000"
+      },
+
+      {
+        "image": "",
+        "title": "Nashville Hot Chicken Burger",
+        "desc": "Crispy chicken fillet coated in fiery Nashville hot sauce, with pickles & creamy mayo [serves 1]",
+        "price": "UGX 18,000",
+        "type": "launch"
+      },
+      {
+        "image": "",
+        "title": "Nashville Hot Wings",
+        "desc": "6 juicy wings tossed in our new Nashville hot pepper sauce [serves 1-2]",
+        "price": "UGX 22,000",
+        "type": "launch"
+      },
+              
+      {
+        "image": "",
+        "title": "Oreo Krusher",
+        "desc": "Thick, icy blended Oreo cookies & cream drink topped with whipped cream",
+        "price": "UGX 10,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Strawberry Krusher",
+        "desc": "Frosty blended strawberry drink, sweet, fruity and refreshing",
+        "price": "UGX 10,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Mango Krusher",
+        "desc": "Icy blended mango drink, smooth and tropical",
+        "price": "UGX 10,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Chocolate Brownie",
+        "desc": "Warm, fudgy chocolate brownie with a rich chocolate centre",
+        "price": "UGX 7,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Strawberry Sundae",
+        "desc": "Creamy vanilla ice cream topped with sweet strawberry sauce",
+        "price": "UGX 6,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Pepsi 500 ml",
+        "desc": "Chilled Pepsi bottle, the perfect partner for your meal",
+        "price": "UGX 3,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Mirinda Orange 500 ml",
+        "desc": "Refreshing, fizzy orange soda served ice cold",
+        "price": "UGX 3,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "7UP 500 ml",
+        "desc": "Crisp, clear lemon-lime soda served chilled",
+        "price": "UGX 3,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Bottled Water 500 ml",
+        "desc": "Pure refreshing drinking water",
+        "price": "UGX 2,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Fresh Orange Juice",
+        "desc": "Freshly squeezed orange juice, served cold",
+        "price": "UGX 6,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Iced Tea",
+        "desc": "Lemon iced tea, sweet, cool and refreshing",
+        "price": "UGX 5,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Chocolate Milkshake",
+        "desc": "Thick, creamy chocolate milkshake topped with whipped cream",
+        "price": "UGX 9,000",
+        "type": "beverages"
+      },
+      {
+        "image": "",
+        "title": "Peri Peri Chicken Bucket",
+        "desc": "5 pc Hot & Crispy chicken coated in smoky peri peri spice [serves 2]",
+        "price": "UGX 38,000",
+        "type": "launch"
+      },
+      {
+        "image": "",
+        "title": "Cheesy Chicken Strips",
+        "desc": "5 crispy chicken strips with a rich melted cheese dip [serves 1-2]",
+        "price": "UGX 20,000",
+        "type": "launch"
+      },
+
+      {
+        "image": "",
+        "title": "Hot & Crispy Bucket",
+        "desc": "8 pc of our signature Hot & Crispy chicken, golden and juicy [serves 3-4]",
+        "price": "UGX 55,000",
+        "type": "chicken"
+      },
+      {
+        "image": "",
+        "title": "Family Chicken Bucket",
+        "desc": "12 pc Hot & Crispy chicken, large fries & a 1.5L soda [serves 5-6]",
+        "price": "UGX 90,000",
+        "type": "chicken"
+      },
+      {
+        "image": "",
+        "title": "Zinger Wings Bucket",
+        "desc": "10 spicy zinger wings with 2 dips [serves 3]",
+        "price": "UGX 42,000",
+        "type": "chicken"
+      },
+      {
+        "image": "",
+        "title": "Mixed Chicken Bucket",
+        "desc": "4 pc Hot & Crispy, 4 pc Smoky Red & 6 chicken strips [serves 4]",
+        "price": "UGX 68,000",
+        "type": "chicken"
+      },
+      {
+        "image": "",
+        "title": "Party Chicken Bucket",
+        "desc": "16 pc Hot & Crispy chicken, 2 large fries & 2 large popcorn [serves 6-8]",
+        "price": "UGX 120,000",
+        "type": "chicken"
+      },
+      {
+        "image": "",
+        "title": "Strips Bucket",
+        "desc": "12 crispy chicken strips with 3 dips [serves 3-4]",
+        "price": "UGX 48,000",
+        "type": "chicken"
+      }, 
+      {
+        "image": "",
+        "title": "Spicy Zinger Rice Bowl",
+        "desc": "Steamed rice topped with crispy Zinger chicken, spicy sauce & veggies [serves 1]",
+        "price": "UGX 17,000",
+        "type": "launch"
+      },
+
+      {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/lg/D-PR00002000.jpg?ver=1.10",
+        "title": "Chick’n Wings Combo",
+        "desc": "Enjoy 2pc Hot & Crispy Chicken, 4 wings , 2 dips & a chilled Pepsi Black [serves 1-2]",
+        "price": "UGX 19,500",
+        "type": "stayhome"
+      }
+    ]
+}
