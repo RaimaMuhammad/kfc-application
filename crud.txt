@@ -1,0 +1,170 @@
+KFC API CRUD TESTS
+
+Backend:
+http://localhost:8080
+
+
+PRODUCT MENU CRUD
+The menu uses the MySQL products table.
+Menu route: http://localhost:8080/api/menu
+
+
+TESTING PRODUCT POST — RAW / JSON
+
+POST
+http://localhost:8080/api/menu
+
+PRODUCT 1
+
+{
+  "title": "KFC Chicken Bucket",
+  "description": "Crispy fried chicken bucket",
+  "price": 25000,
+  "image": "https://example.com/chicken.jpg",
+  "type": "Chicken"
+}
+
+PRODUCT 2
+
+{
+  "title": "KFC Fries",
+  "description": "Crispy golden fries",
+  "price": 8000,
+  "image": "https://example.com/fries.jpg",
+  "type": "Sides"
+}
+
+Record the "id" returned for each product. Use those IDs in the GET, PUT, and DELETE tests.
+
+
+TESTING PRODUCT GET — READ ALL MENU PRODUCTS
+
+GET
+http://localhost:8080/api/menu
+
+
+TESTING PRODUCT GET — READ ONE PRODUCT
+
+GET
+http://localhost:8080/api/menu/PRODUCT_ID
+
+Replace PRODUCT_ID with the id returned by POST.
+
+
+TESTING PRODUCT PUT — UPDATE A PRODUCT — RAW / JSON
+
+PUT
+http://localhost:8080/api/menu/PRODUCT_ID
+
+{
+  "title": "KFC Family Bucket",
+  "description": "Large crispy chicken bucket for the family",
+  "price": 35000,
+  "image": "https://example.com/family-bucket.jpg",
+  "type": "Chicken"
+}
+
+
+TESTING PRODUCT DELETE
+
+DELETE
+http://localhost:8080/api/menu/PRODUCT_ID
+
+If the product is in a cart, delete its cart item first.
+
+
+CART CRUD
+Cart route: http://localhost:8080/api/cart
+
+Before testing the cart, use a real user_id and product_id.
+Check the user ID in MySQL:
+
+SELECT id, firstname, lastname, email FROM users;
+
+Check product IDs in MySQL:
+
+SELECT id, title FROM products;
+
+
+TESTING CART POST — RAW / JSON
+
+POST
+http://localhost:8080/api/cart
+
+{
+  "user_id": 1,
+  "product_id": 1,
+  "quantity": 2
+}
+
+Replace user_id and product_id with IDs that exist in your database.
+
+
+TESTING CART GET — READ ONE USER'S CART
+
+GET
+http://localhost:8080/api/cart?user_id=1
+
+Replace 1 with the real user ID.
+
+
+TESTING CART PUT — CHANGE QUANTITY — RAW / JSON
+
+PUT
+http://localhost:8080/api/cart/USER_ID/PRODUCT_ID
+
+{
+  "quantity": 5
+}
+
+Replace USER_ID and PRODUCT_ID with the same IDs used in the cart POST.
+
+
+TESTING CART DELETE — REMOVE PRODUCT FROM CART
+
+DELETE
+http://localhost:8080/api/cart/USER_ID/PRODUCT_ID
+
+Replace USER_ID and PRODUCT_ID with the same IDs used in the cart POST.
+
+
+USER ROUTE TESTS
+
+
+TESTING USER REGISTER — RAW / JSON
+
+POST
+http://localhost:8080/api/register
+
+{
+  "firstname": "Benedicto",
+  "lastname": "Kiwanuka",
+  "email": "USE_AN_EMAIL_YOU_CAN_ACCESS",
+  "password": "USE_A_PASSWORD_YOU_CHOOSE"
+}
+
+
+TESTING USER LOGIN — RAW / JSON
+
+POST
+http://localhost:8080/api/login
+
+{
+  "email": "USE_THE_SAME_EMAIL_AS_REGISTER",
+  "password": "USE_THE_SAME_PASSWORD_AS_REGISTER"
+}
+
+
+DELETING THE TEST USER
+
+There is no user DELETE API route currently. Find the test user's ID in MySQL:
+
+SELECT id, firstname, lastname, email
+FROM users
+WHERE firstname = 'Benedicto'
+  AND lastname = 'Kiwanuka';
+
+Delete that user's cart rows first, then the user. Replace USER_ID with the ID returned above:
+
+DELETE FROM cart WHERE user_id = USER_ID;
+DELETE FROM users WHERE id = USER_ID;
